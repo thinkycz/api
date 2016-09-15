@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4bd327a9-f071-485e-9f12-9c44e03bf981" name="api.thinky.cz" url="http://125884.w84.wedos.net">
+        <fileTransfer host="125884.w84.wedos.net" port="21" username="w125884">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
