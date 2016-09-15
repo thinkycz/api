@@ -20,7 +20,7 @@ class CreateCharactersTable extends Migration
             $table->string('pinyin');
             $table->string('translation');
 
-            $table->integer('section_id');
+            $table->unsignedInteger('section_id')->nullable();
             $table->foreign('section_id')->references('id')->on('sections')->onDelete('set null');
         });
     }
