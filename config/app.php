@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'env' => 'local',
+    'env' => env('APP_ENV', 'production'),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => 'http://api.thinky.cz/',
+    'url' => env('APP_URL', 'http://localhost'),
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'key' => 'base64:SrVgPDdMLXWgVAi61rIO7veSsOvNFHMGwtLt8qMzKpE=',
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
