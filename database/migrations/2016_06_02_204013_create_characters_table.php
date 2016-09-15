@@ -21,7 +21,7 @@ class CreateCharactersTable extends Migration
             $table->string('translation');
 
             $table->unsignedInteger('section_id')->nullable();
-            $table->foreign('section_id')->references('id')->on('sections')->onDelete('cascade');
+            $table->foreign('section_id')->references('id')->on('sections')->onDelete('set null');
         });
     }
 
